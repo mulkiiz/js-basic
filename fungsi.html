@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World Javascript</title>
+</head>
+<body>
+    <script>
+        function bagi(a,b){
+            hasilBagi = a / b;
+            return hasilBagi;
+        }
+
+        //contoh fungsi yang lain
+        var kali = (a,b) => {
+            hasilKali = a * b;
+            return hasilKali;
+        }
+        // memanggil fungsi
+        var nilai1 = 20;
+        var nilai2 = 5;
+        var hasilPembagian = bagi(nilai1, nilai2);
+        var hasilPerkalian = kali(nilai1, nilai2);
+
+        console.log("hasil bagi dari : " + nilai1 + " / " + nilai2 + " = " + hasilPembagian);
+        console.log("hasil kali dari : " + nilai1 + " * " + nilai2 + " = " + hasilPerkalian);
+    </script>
+</body>
+</html>

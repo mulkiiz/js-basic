@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World Javascript</title>
+</head>
+<body>
+    <script>
+        // kita punya array seperti berikut
+        var days = ["Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu", "Minggu"];
+
+        // Kemudian kita tampilkan semua hari
+        // dengan menggunakan method foreach
+        days.forEach(function(day){
+            document.write("<p>" + day + "</p>");
+        });
+        document.write("<p> ===== penulisan cara kedua ===== </p>");
+        // kita punya array seperti berikut
+        var days = ["Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu", "Minggu"];
+
+        // Kemudian kita tampilkan semua hari
+        // dengan menggunakan method foreach
+        days.forEach((day) => {
+            document.write("<p>" + day + "</p>");
+        });
+        document.write("<p> ===== contoh repeat ===== </p>");
+        document.write("Ulangi kalimat ini! <br>".repeat(7));
+    </script>
+</body>
+</html>
